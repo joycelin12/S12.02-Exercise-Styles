@@ -42,6 +42,7 @@
         <!-- TODO (6) Replace the appropriate attributes with the DetailLabel style -->
         <TextView
             android:id="@+id/humidity_label"
+            style="@style/DetailLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
@@ -56,6 +57,7 @@
         <!-- TODO (7) Replace the appropriate attributes with the ExtraWeatherMeasurement style -->
         <TextView
             android:id="@+id/humidity"
+            style="@style/ExtraWeatherMeasurement"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@android:color/white"
@@ -67,6 +69,7 @@
         <!-- TODO (8) Replace the appropriate attributes with the DetailLabel style -->
         <TextView
             android:id="@+id/pressure_label"
+            style="@style/DetailLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
@@ -80,6 +83,7 @@
         <!-- TODO (9) Replace the appropriate attributes with the ExtraWeatherMeasurement style -->
         <TextView
             android:id="@+id/pressure"
+            style="@style/ExtraWeatherMeasurement"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@android:color/white"
@@ -91,6 +95,7 @@
         <!-- TODO (10) Replace the appropriate attributes with the DetailLabel style -->
         <TextView
             android:id="@+id/wind_label"
+            style="@style/DetailLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif"
@@ -105,6 +110,7 @@
         <!-- TODO (11) Replace the appropriate attributes with the ExtraWeatherMeasurement style -->
         <TextView
             android:id="@+id/wind_measurement"
+            style="@style/ExtraWeatherMeasurement"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@android:color/white"
